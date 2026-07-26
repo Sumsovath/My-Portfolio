@@ -1,0 +1,102 @@
+[
+  {
+    "id": "golden-bridge-international-school-of-phnom-penh-ict-and-robot-literacy-instructor",
+    "position": "ICT and Robot Literacy Instructor",
+    "company": "Golden Bridge International School of Phnom Penh",
+    "location": "Phnom Penh",
+    "startDate": "2025-07",
+    "endDate": "",
+    "currentlyWorking": true,
+    "description": "",
+    "responsibilities": [
+      "Teach Information and Communication Technology including computer skills, digital tools, and internet use.",
+      "Design and deliver robot literacy lessons covering basic programming, robotics, and problem-solving activities.",
+      "Support students through hands-on projects that build creativity, teamwork, and technology skills."
+    ],
+    "technologies": [],
+    "type": "Education",
+    "icon": "fa-solid fa-robot",
+    "published": true,
+    "order": 1
+  },
+  {
+    "id": "npo-hikari-international-school-chinese-language-teacher-level-1-2",
+    "position": "Chinese Language Teacher (Level 1-2)",
+    "company": "NPO Hikari International School",
+    "location": "Phnom Penh",
+    "startDate": "2025-06",
+    "endDate": "",
+    "currentlyWorking": true,
+    "description": "",
+    "responsibilities": [
+      "Teach beginner-level Chinese to students of various ages.",
+      "Develop lesson plans and interactive activities to support language acquisition.",
+      "Help students improve speaking, listening, reading, and writing skills."
+    ],
+    "technologies": [],
+    "type": "Teaching",
+    "icon": "fa-solid fa-language",
+    "published": false,
+    "order": 2
+  },
+  {
+    "id": "digital-divide-data-computer-trainer",
+    "position": "Computer Trainer",
+    "company": "Digital Divide Data",
+    "location": "Phnom Penh",
+    "startDate": "2024-08",
+    "endDate": "2025-06",
+    "currentlyWorking": false,
+    "description": "",
+    "responsibilities": [
+      "Trained groups of 15-20 students in Microsoft Office, Google Workspace, and Canva.",
+      "Improved digital literacy through tailored practical lessons.",
+      "Provided career counseling to help students explore pathways and build essential skills."
+    ],
+    "technologies": [],
+    "type": "Training",
+    "icon": "fa-solid fa-chalkboard-user",
+    "published": true,
+    "order": 3
+  },
+  {
+    "id": "usa-international-school-technical-instructor",
+    "position": "Technical Instructor",
+    "company": "USA International School",
+    "location": "Phnom Penh",
+    "startDate": "2024-01",
+    "endDate": "2024-08",
+    "currentlyWorking": false,
+    "description": "",
+    "responsibilities": [
+      "Taught computer science and robotics with customized lesson plans.",
+      "Assessed student progress and gave constructive feedback.",
+      "Organized a robotics competition that supported teamwork and technical skills."
+    ],
+    "technologies": [],
+    "type": "Education",
+    "icon": "fa-solid fa-microchip",
+    "published": true,
+    "order": 4
+  },
+  {
+    "id": "national-olympic-committee-of-cambodia-nocc-volunteer-coordinator",
+    "position": "Volunteer Coordinator",
+    "company": "National Olympic Committee of Cambodia (NOCC)",
+    "location": "Phnom Penh",
+    "startDate": "2023-05",
+    "endDate": "2023-06",
+    "currentlyWorking": false,
+    "description": "",
+    "responsibilities": [
+      "Managed volunteers during SEA Games 32 and PARA Games 19.",
+      "Provided logistical support to athletes and attendees.",
+      "Practiced communication, coordination, and problem solving in a large event environment."
+    ],
+    "technologies": [],
+    "type": "Volunteer",
+    "icon": "fa-solid fa-hands-helping",
+    "published": true,
+    "order": 5
+  }
+]

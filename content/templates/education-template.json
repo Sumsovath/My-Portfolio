@@ -1,0 +1,14 @@
+{
+  "id": "replace-with-education-id",
+  "institution": "REPLACE WITH INSTITUTION",
+  "qualification": "REPLACE WITH QUALIFICATION",
+  "field": "REPLACE WITH FIELD OF STUDY",
+  "startYear": "2022",
+  "endYear": "2026",
+  "currentlyStudying": false,
+  "status": "REPLACE WITH HONEST STATUS",
+  "description": "",
+  "details": [],
+  "published": false,
+  "order": 999
+}

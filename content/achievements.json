@@ -1,0 +1,74 @@
+{
+  "achievements": [
+    {
+      "id": "ddd-career-connect-scholarship",
+      "title": "DDD Career Connect Scholarship",
+      "description": "Awarded a scholarship under the DDD Career Connect program.",
+      "icon": "fa-solid fa-award",
+      "published": true,
+      "order": 1
+    },
+    {
+      "id": "outstanding-student-recognition",
+      "title": "Outstanding Student Recognition",
+      "description": "Recognized as an outstanding student for academic and extracurricular achievements.",
+      "icon": "fa-solid fa-star",
+      "published": true,
+      "order": 2
+    },
+    {
+      "id": "robotics-competition-support",
+      "title": "Robotics Competition Support",
+      "description": "Organized a robotics competition that supported teamwork and practical technical skills.",
+      "icon": "fa-solid fa-robot",
+      "published": true,
+      "order": 3
+    },
+    {
+      "id": "sea-games-volunteer-coordination",
+      "title": "SEA Games Volunteer Coordination",
+      "description": "Coordinated volunteers and logistics during SEA Games 32 and PARA Games 19.",
+      "icon": "fa-solid fa-handshake",
+      "published": true,
+      "order": 4
+    }
+  ],
+  "activityPlaceholders": [
+    {
+      "id": "github-contribution-graph",
+      "title": "GitHub Contribution Graph",
+      "description": "Connect a GitHub profile to show real contribution activity.",
+      "icon": "fa-brands fa-github",
+      "status": "Placeholder",
+      "published": true,
+      "order": 1
+    },
+    {
+      "id": "github-statistics",
+      "title": "GitHub Statistics",
+      "description": "Add real GitHub username before enabling live or static stats.",
+      "icon": "fa-solid fa-chart-simple",
+      "status": "Placeholder",
+      "published": true,
+      "order": 2
+    },
+    {
+      "id": "coding-activity",
+      "title": "Coding Activity",
+      "description": "Add a trusted activity source before publishing metrics.",
+      "icon": "fa-solid fa-terminal",
+      "status": "Placeholder",
+      "published": true,
+      "order": 3
+    },
+    {
+      "id": "visitor-counter",
+      "title": "Visitor Counter",
+      "description": "Requires a real analytics or counter service before enabling.",
+      "icon": "fa-solid fa-eye",
+      "status": "Disabled",
+      "published": true,
+      "order": 4
+    }
+  ]
+}

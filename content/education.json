@@ -1,0 +1,87 @@
+{
+  "education": [
+    {
+      "id": "royal-university-of-phnom-penh",
+      "institution": "Royal University of Phnom Penh",
+      "qualification": "Computer Science",
+      "field": "Computer Science",
+      "startYear": "2021",
+      "endYear": "2025",
+      "currentlyStudying": false,
+      "displayPeriod": "2021–2025",
+      "status": "",
+      "description": "",
+      "details": [
+        "GPA: 3.5 / 4.0"
+      ],
+      "published": true,
+      "order": 1
+    },
+    {
+      "id": "istad",
+      "institution": "ISTAD",
+      "qualification": "Java Backend Development / Spring Boot",
+      "field": "Java Backend Development / Spring Boot",
+      "startYear": "",
+      "endYear": "",
+      "currentlyStudying": true,
+      "status": "Spring 13 learner",
+      "description": "",
+      "details": [
+        "Java",
+        "Spring Framework",
+        "Spring Boot",
+        "REST APIs",
+        "PostgreSQL",
+        "Backend security"
+      ],
+      "published": true,
+      "order": 2
+    },
+    {
+      "id": "jephu-high-school-svay-rieng",
+      "institution": "Jephu High School, Svay Rieng",
+      "qualification": "High School",
+      "field": "High School",
+      "startYear": "2016",
+      "endYear": "2021",
+      "currentlyStudying": false,
+      "status": "Completed high school study",
+      "description": "",
+      "details": [
+        "General education foundation"
+      ],
+      "published": true,
+      "order": 3
+    }
+  ],
+  "training": [
+    {
+      "id": "career-acceleration-program-cap",
+      "title": "Career Acceleration Program (CAP)",
+      "organization": "DDD Career Connect, Phnom Penh",
+      "period": "August - September 2024",
+      "description": "Developed job skills, soft skills, computer literacy, and English communication.",
+      "published": true,
+      "order": 1
+    },
+    {
+      "id": "a-child-of-the-universe",
+      "title": "A Child of the Universe",
+      "organization": "Phnom Penh, Cambodia",
+      "period": "December 2022 - April 2023",
+      "description": "Gained insights into communication, ethical behavior, and community involvement.",
+      "published": true,
+      "order": 2
+    },
+    {
+      "id": "i-t-skills-training",
+      "title": "I.T Skills Training",
+      "organization": "ETEC Center",
+      "period": "February 2021 - 2022",
+      "description": "Training in C programming, C++, and networking fundamentals.",
+      "published": true,
+      "order": 3
+    }
+  ]
+}

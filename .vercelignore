@@ -1,0 +1,13 @@
+work/
+outputs/
+.git/
+.vscode/
+.idea/
+content/backups/
+dist/
+coverage/
+__pycache__/
+*.zip
+.env
+.env.*
+*.log

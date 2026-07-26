@@ -1,0 +1,12 @@
+{
+  "id": "replace-with-certificate-id",
+  "title": "REPLACE WITH CERTIFICATE TITLE",
+  "issuer": "REPLACE WITH ISSUER",
+  "issueDate": "2026-01",
+  "credentialUrl": "",
+  "image": "/uploads/certificates/replace-with-image.jpg",
+  "category": "REPLACE WITH CATEGORY",
+  "status": "REPLACE WITH VERIFICATION STATUS",
+  "published": false,
+  "order": 999
+}

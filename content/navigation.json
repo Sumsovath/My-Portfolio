@@ -1,0 +1,65 @@
+[
+  {
+    "id": "home",
+    "label": "Home",
+    "target": "home",
+    "enabled": true,
+    "order": 1
+  },
+  {
+    "id": "about",
+    "label": "About",
+    "target": "about",
+    "enabled": true,
+    "order": 2
+  },
+  {
+    "id": "story",
+    "label": "Story",
+    "target": "story",
+    "enabled": true,
+    "order": 3
+  },
+  {
+    "id": "skills",
+    "label": "Skills",
+    "target": "skills",
+    "enabled": true,
+    "order": 4
+  },
+  {
+    "id": "experience",
+    "label": "Experience",
+    "target": "experience",
+    "enabled": true,
+    "order": 5
+  },
+  {
+    "id": "projects",
+    "label": "Projects",
+    "target": "projects",
+    "enabled": true,
+    "order": 6
+  },
+  {
+    "id": "learning",
+    "label": "Learning",
+    "target": "learning",
+    "enabled": true,
+    "order": 7
+  },
+  {
+    "id": "education",
+    "label": "Education",
+    "target": "education",
+    "enabled": true,
+    "order": 8
+  },
+  {
+    "id": "contact",
+    "label": "Contact",
+    "target": "contact",
+    "enabled": true,
+    "order": 9
+  }
+]

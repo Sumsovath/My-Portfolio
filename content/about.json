@@ -1,0 +1,110 @@
+{
+  "paragraphs": [
+    "I am a Java Backend Developer in training and a Spring Boot student. I am learning how to design REST APIs, organize backend projects, work with databases, and write clean Java code.",
+    "My background also includes teaching computer skills, ICT, robotics, programming fundamentals, Arduino, digital tools, and beginner Chinese. Teaching has strengthened my communication, patience, leadership, and problem-solving skills.",
+    "I learn best through step-by-step explanations, practical projects, consistent practice, and reviewing how code works in real applications. My goal is to become a reliable backend engineer and later specialize in AI-enabled backend systems."
+  ],
+  "information": [
+    {
+      "id": "location",
+      "label": "Location",
+      "valueFromProfile": "location",
+      "icon": "fa-solid fa-location-dot",
+      "published": true,
+      "order": 1
+    },
+    {
+      "id": "current-focus",
+      "label": "Current focus",
+      "value": "Java Backend Development",
+      "icon": "fa-solid fa-server",
+      "published": true,
+      "order": 2
+    },
+    {
+      "id": "main-framework",
+      "label": "Main framework",
+      "value": "Spring Boot",
+      "icon": "fa-solid fa-leaf",
+      "published": true,
+      "order": 3
+    },
+    {
+      "id": "additional-field",
+      "label": "Additional field",
+      "value": "Robotics and Technology Education",
+      "icon": "fa-solid fa-microchip",
+      "published": true,
+      "order": 4
+    },
+    {
+      "id": "long-term-goal",
+      "label": "Long-term goal",
+      "value": "AI Backend Engineer",
+      "icon": "fa-solid fa-brain",
+      "published": true,
+      "order": 5
+    },
+    {
+      "id": "languages-learning",
+      "label": "Languages learning",
+      "value": "English and Chinese",
+      "icon": "fa-solid fa-language",
+      "published": true,
+      "order": 6
+    },
+    {
+      "id": "availability",
+      "label": "Availability",
+      "value": "Internships, junior roles, collaboration, and learning",
+      "icon": "fa-solid fa-handshake-angle",
+      "published": true,
+      "order": 7
+    }
+  ],
+  "statisticsTitle": "Professional Snapshot",
+  "statisticsSubtitle": "Key facts about my academic background, technical learning, and practical experience.",
+  "statistics": [
+    {
+      "id": "education",
+      "label": "Computer Science Student",
+      "value": "4th Year",
+      "suffix": "",
+      "note": "Royal University of Phnom Penh",
+      "icon": "fa-solid fa-graduation-cap",
+      "published": true,
+      "order": 1
+    },
+    {
+      "id": "current-gpa",
+      "label": "Current GPA",
+      "value": "3.5 / 4.0",
+      "suffix": "",
+      "note": "Computer Science Program",
+      "icon": "fa-solid fa-chart-line",
+      "published": true,
+      "order": 2
+    },
+    {
+      "id": "projects-completed",
+      "label": "Projects Completed",
+      "valueSource": "completedProjects",
+      "value": "",
+      "suffix": "",
+      "note": "Java, Spring Boot & Arduino Projects",
+      "icon": "fa-solid fa-code-branch",
+      "published": true,
+      "order": 3
+    },
+    {
+      "id": "training",
+      "label": "Average Training Group",
+      "value": "15–20",
+      "suffix": "",
+      "note": "Digital Divide Data",
+      "icon": "fa-solid fa-users",
+      "published": true,
+      "order": 4
+    }
+  ]
+}

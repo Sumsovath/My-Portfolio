@@ -1,0 +1,22 @@
+{
+  "id": "replace-with-project-id",
+  "title": "REPLACE WITH PROJECT TITLE",
+  "shortDescription": "REPLACE WITH A SHORT DESCRIPTION",
+  "fullDescription": "REPLACE WITH A LONGER DESCRIPTION",
+  "image": "/uploads/projects/replace-with-image.jpg",
+  "technologies": [
+    "REPLACE WITH TECHNOLOGY"
+  ],
+  "categories": [
+    "REPLACE WITH CATEGORY"
+  ],
+  "status": "REPLACE WITH HONEST STATUS",
+  "learningOutcomes": [
+    "REPLACE WITH A LEARNING OUTCOME"
+  ],
+  "liveUrl": "",
+  "githubUrl": "",
+  "featured": false,
+  "published": false,
+  "order": 999
+}

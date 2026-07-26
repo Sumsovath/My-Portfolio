@@ -1,0 +1,68 @@
+[
+  {
+    "id": "my-java-learning-journey",
+    "title": "My Java Learning Journey",
+    "description": "A future note about how I practice Java fundamentals and backend thinking.",
+    "category": "Java",
+    "status": "Coming soon",
+    "readingTime": "Draft",
+    "articleUrl": "",
+    "published": true,
+    "order": 1
+  },
+  {
+    "id": "what-i-learned-from-spring-boot",
+    "title": "What I Learned from Spring Boot",
+    "description": "A practical article about controllers, dependency injection, and REST APIs.",
+    "category": "Spring Boot",
+    "status": "Coming soon",
+    "readingTime": "Draft",
+    "articleUrl": "",
+    "published": true,
+    "order": 2
+  },
+  {
+    "id": "building-my-first-rest-api",
+    "title": "Building My First REST API",
+    "description": "A beginner-friendly explanation of returning JSON from a Spring Boot endpoint.",
+    "category": "Backend",
+    "status": "Coming soon",
+    "readingTime": "Draft",
+    "articleUrl": "",
+    "published": true,
+    "order": 3
+  },
+  {
+    "id": "my-journey-toward-ai-engineering",
+    "title": "My Journey Toward AI Engineering",
+    "description": "Documenting my progress in Python, machine learning, AI tools, and building intelligent applications.",
+    "category": "AI Engineering",
+    "status": "Coming soon",
+    "readingTime": "Draft",
+    "articleUrl": "",
+    "published": true,
+    "order": 4
+  },
+  {
+    "id": "how-ai-may-change-programming",
+    "title": "How AI May Change Programming",
+    "description": "A learning-focused reflection on AI tools, backend systems, and future skills.",
+    "category": "AI",
+    "status": "Coming soon",
+    "readingTime": "Draft",
+    "articleUrl": "",
+    "published": true,
+    "order": 5
+  },
+  {
+    "id": "learning-technical-english-as-a-developer",
+    "title": "Learning Technical English as a Developer",
+    "description": "Notes on improving communication while learning software engineering.",
+    "category": "Communication",
+    "status": "Coming soon",
+    "readingTime": "Draft",
+    "articleUrl": "",
+    "published": true,
+    "order": 6
+  }
+]

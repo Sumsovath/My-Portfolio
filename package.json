@@ -1,0 +1,24 @@
+{
+  "name": "sum-sovath-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Editable personal portfolio for Sum Sovath, built with HTML, CSS, and vanilla JavaScript.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "sync-content": "node scripts/generate-content.mjs",
+    "validate-content": "node scripts/validate-content.mjs",
+    "list-content": "node scripts/list-content.mjs",
+    "add-project": "node scripts/add-content.mjs project",
+    "add-experience": "node scripts/add-content.mjs experience",
+    "add-certificate": "node scripts/add-content.mjs certificate",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/dev-server.mjs --dir dist --port 4173",
+    "zip": "node scripts/run-zip.mjs",
+    "package": "npm run build && npm run zip"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

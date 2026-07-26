@@ -1,0 +1,47 @@
+{
+  "name": "Sum Sovath",
+  "displayName": "SUM SOVATH",
+  "professionalTitle": "Java Backend Developer and Spring Boot Learner",
+  "shortIntroduction": "I am learning to build clean REST APIs and real-world backend applications with Java and Spring Boot. My background in teaching technology and robotics helps me communicate ideas clearly, solve practical problems, and continue learning every day.",
+  "location": "Phnom Penh, Cambodia",
+  "email": "sumsovath99@gmail.com",
+  "phone": "",
+  "tagline": "Building useful software, solving real-world problems, and preparing for the future of AI.",
+  "mission": "I believe technology should improve people's lives. My goal is to become a skilled Backend Engineer and future AI Engineer while continuously learning and building meaningful software.",
+  "profileImage": "/uploads/profile/sum-sovath-profile.jpg",
+  "profileThumbnail": "/uploads/profile/sum-sovath-profile-thumb.jpg",
+  "resumeFile": "/uploads/resume/sum-sovath-resume.pdf",
+  "availableForWork": true,
+  "heroRoles": [
+    "Java Backend Developer",
+    "Spring Boot Learner",
+    "Java Programmer",
+    "Robotics Instructor",
+    "Technology Educator",
+    "Future AI Backend Engineer",
+    "Problem Solver",
+    "Continuous Learner"
+  ],
+  "heroBadges": [
+    {
+      "label": "Java",
+      "icon": "fa-brands fa-java"
+    },
+    {
+      "label": "Spring Boot",
+      "icon": "fa-solid fa-leaf"
+    },
+    {
+      "label": "REST APIs",
+      "icon": "fa-solid fa-code-branch"
+    },
+    {
+      "label": "Robotics",
+      "icon": "fa-solid fa-microchip"
+    },
+    {
+      "label": "AI Learning",
+      "icon": "fa-solid fa-brain"
+    }
+  ]
+}

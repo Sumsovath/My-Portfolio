@@ -1,0 +1,357 @@
+[
+  {
+    "id": "student-information-rest-api",
+    "title": "Student Information REST API",
+    "shortDescription": "A beginner Spring Boot REST API that returns student information such as name, school, course, generation, and student status as JSON.",
+    "fullDescription": "A beginner Spring Boot REST API that returns student information such as name, school, course, generation, and student status as JSON.",
+    "image": "/uploads/projects/student-info-api.jpg",
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Web",
+      "REST API",
+      "Map",
+      "HashMap"
+    ],
+    "categories": [
+      "Java",
+      "Spring Boot"
+    ],
+    "status": "Learning — In Progress",
+    "learningOutcomes": [
+      "Creating a REST controller",
+      "Using @RestController",
+      "Creating endpoints with @GetMapping",
+      "Returning Java data as JSON",
+      "Testing a local API"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false,
+    "published": true,
+    "order": 6
+  },
+  {
+    "id": "product-catalog-api",
+    "title": "Product Catalog API",
+    "shortDescription": "A Spring Boot product catalog application that stores mock product data and exposes it through a REST API.",
+    "fullDescription": "A Spring Boot product catalog application that stores mock product data and exposes it through a REST API.",
+    "image": "/uploads/projects/product-catalog-api.jpg",
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Configuration",
+      "Dependency Injection",
+      "REST API",
+      "BigDecimal"
+    ],
+    "categories": [
+      "Java",
+      "Spring Boot"
+    ],
+    "status": "Learning — In Progress",
+    "learningOutcomes": [
+      "Constructor injection",
+      "Creating Spring beans",
+      "Returning lists through an API",
+      "Organizing code into packages",
+      "Understanding Spring-managed objects"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false,
+    "published": true,
+    "order": 7
+  },
+  {
+    "id": "restful-product-management-api",
+    "title": "RESTful Product Management API",
+    "shortDescription": "A structured Spring Boot application that uses request and response DTOs to manage product information.",
+    "fullDescription": "A structured Spring Boot application that uses request and response DTOs to manage product information.",
+    "image": "/uploads/projects/product-management-api.jpg",
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "REST API",
+      "DTO",
+      "Java Record",
+      "Lombok Builder",
+      "BigDecimal"
+    ],
+    "categories": [
+      "Java",
+      "Spring Boot"
+    ],
+    "status": "Completing",
+    "learningOutcomes": [
+      "Separating request and response objects",
+      "Using CreateProductRequest",
+      "Using ProductResponse",
+      "Creating maintainable package structures",
+      "Learning company-style backend organization"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false,
+    "published": true,
+    "order": 5
+  },
+  {
+    "id": "ultrasonic-distance-detection-system",
+    "title": "Ultrasonic Robot Car Control System",
+    "shortDescription": "Distance-based speed control and obstacle avoidance.",
+    "fullDescription": "A robot car control project that uses ultrasonic distance readings for speed control and obstacle avoidance.",
+    "image": "/uploads/projects/ultrasonic-distance.jpg",
+    "technologies": [
+      "Arduino",
+      "C++",
+      "HC-SR04",
+      "Robot Car",
+      "Motor Control"
+    ],
+    "categories": [
+      "Robotics",
+      "Arduino"
+    ],
+    "status": "Completed learning project",
+    "showVideoButton": true,
+    "learningOutcomes": [
+      "Reading ultrasonic sensor data",
+      "Measuring distance",
+      "Using distance readings for speed control",
+      "Changing direction to avoid obstacles"
+    ],
+    "features": [
+      "Distance-Based Speed Control: When the path ahead is clear, the robot car increases its speed based on the ultrasonic sensor reading.",
+      "Obstacle Avoidance: When the HC-SR04 detects an obstacle ahead, the robot car changes direction and continues along another path."
+    ],
+    "videos": [
+      {
+        "src": "/uploads/projects/ultrasonic-robot-car/Distance-Based Speed Control.MOV",
+        "label": "Distance-Based Speed Control"
+      },
+      {
+        "src": "/uploads/projects/ultrasonic-robot-car/Obstacle Avoidance.MOV",
+        "label": "Obstacle Avoidance"
+      }
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": true,
+    "published": true,
+    "order": 4
+  },
+  {
+    "id": "touchless-hand-washing-system",
+    "title": "Touchless Hand-Washing System",
+    "shortDescription": "A touchless system concept using infrared sensing and pump or motor control. Completion status should be verified before publishing.",
+    "fullDescription": "A touchless system concept using infrared sensing and pump or motor control. Completion status should be verified before publishing.",
+    "image": "/uploads/projects/touchless-hand-washing-system/cover.jpg",
+    "technologies": [
+      "Arduino",
+      "Infrared Sensor",
+      "Pump Control",
+      "Motor Control"
+    ],
+    "categories": [
+      "Robotics",
+      "Arduino"
+    ],
+    "status": "Completed learning project",
+    "showVideoButton": true,
+    "learningOutcomes": [
+      "Using sensor input",
+      "Triggering output safely",
+      "Building practical hygiene technology"
+    ],
+    "videos": [
+      {
+        "src": "/uploads/projects/touchless-hand-washing-system/demo.mp4",
+        "label": "Touchless hand-washing system demonstration"
+      },
+      {
+        "src": "/uploads/projects/touchless-hand-washing-system/demo-robot-car.mp4",
+        "label": "Touchless hand-washing smart robotic car demonstration"
+      }
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": true,
+    "published": true,
+    "order": 2
+  },
+  {
+    "id": "bluetooth-robot-car",
+    "title": "Bluetooth Robot Car",
+    "shortDescription": "A robotics project concept using Bluetooth control, motors, and a motor driver. Completion status should be verified before publishing.",
+    "fullDescription": "A robotics project concept using Bluetooth control, motors, and a motor driver. Completion status should be verified before publishing.",
+    "image": "/uploads/projects/bluetooth-robot-car/cover.jpg",
+    "technologies": [
+      "Arduino",
+      "Bluetooth Module",
+      "Motors",
+      "Motor Driver"
+    ],
+    "categories": [
+      "Robotics",
+      "Arduino"
+    ],
+    "status": "Completed learning project",
+    "showVideoButton": true,
+    "learningOutcomes": [
+      "Understanding motor control",
+      "Using wireless commands",
+      "Debugging robot movement"
+    ],
+    "videos": [
+      {
+        "src": "/uploads/projects/bluetooth-robot-car/demo-3-wheels.mp4",
+        "label": "3-wheel robot car demonstration"
+      },
+      {
+        "src": "/uploads/projects/bluetooth-robot-car/demo-4-wheels.mp4",
+        "label": "4-wheel robot car demonstration"
+      }
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": true,
+    "published": true,
+    "order": 1
+  },
+  {
+    "id": "student-management-system",
+    "title": "Student Management System",
+    "shortDescription": "A Java learning project focused on organizing student data, practicing OOP, and preparing for CRUD-style backend work.",
+    "fullDescription": "A Java learning project focused on organizing student data, practicing OOP, and preparing for CRUD-style backend work.",
+    "image": "/uploads/projects/student-management-system.jpg",
+    "technologies": [
+      "Java",
+      "Object-Oriented Programming",
+      "Collections",
+      "CRUD Concepts"
+    ],
+    "categories": [
+      "Java"
+    ],
+    "status": "Learning — In Progress",
+    "learningOutcomes": [
+      "Modeling entities",
+      "Practicing collections",
+      "Improving naming and structure"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false,
+    "published": true,
+    "order": 8
+  },
+  {
+    "id": "sales-dashboard",
+    "title": "Sales Dashboard",
+    "shortDescription": "A SQL and data analysis learning project focused on reading business data and presenting useful dashboard insights.",
+    "fullDescription": "A SQL and data analysis learning project focused on reading business data and presenting useful dashboard insights.",
+    "image": "/uploads/projects/sales-dashboard.jpg",
+    "technologies": [
+      "SQL",
+      "Data Analysis",
+      "Dashboard Concepts"
+    ],
+    "categories": [
+      "SQL"
+    ],
+    "status": "Learning — In Progress",
+    "learningOutcomes": [
+      "Writing queries",
+      "Thinking in metrics",
+      "Practicing data storytelling"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false,
+    "published": true,
+    "order": 9
+  },
+  {
+    "id": "future-ai-backend-projects",
+    "title": "Future AI Backend Projects",
+    "shortDescription": "Planned projects include an AI chatbot backend, AI productivity assistant, secure API with JWT, Dockerized backend app, and portfolio CMS.",
+    "fullDescription": "Planned projects include an AI chatbot backend, AI productivity assistant, secure API with JWT, Dockerized backend app, and portfolio CMS.",
+    "image": "/uploads/projects/future-ai-backend.jpg",
+    "technologies": [
+      "AI Learning",
+      "Spring Boot",
+      "PostgreSQL",
+      "Docker",
+      "Security"
+    ],
+    "categories": [
+      "Future Projects"
+    ],
+    "status": "Planned learning goal",
+    "learningOutcomes": [
+      "Plan real backend systems",
+      "Connect AI features to APIs",
+      "Learn deployment and security step by step"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false,
+    "published": true,
+    "order": 10
+  },
+  {
+    "id": "automated-conveyor-pickup-system",
+    "title": "Automated Conveyor Pickup System",
+    "shortDescription": "An educational industrial automation project where a robot truck moves to a conveyor, receives an item, and transports it to another location.",
+    "fullDescription": "An educational industrial automation project where a robot truck moves to a conveyor, receives an item, and transports it to another location.",
+    "image": "/uploads/projects/automated-conveyor-pickup-system/cover.jpg",
+    "cardCoverStyle": "robotics",
+    "coverTitle": "Automated Conveyor Pickup",
+    "coverSubtitle": "Educational industrial automation project",
+    "coverTags": [
+      "Arduino",
+      "Sensors",
+      "Learning"
+    ],
+    "technologies": [
+      "Arduino",
+      "Conveyor System",
+      "Robot Car",
+      "Sensors",
+      "Motor Control",
+      "Industrial Automation"
+    ],
+    "categories": [
+      "Robotics",
+      "Arduino"
+    ],
+    "status": "Completed learning project",
+    "showVideoButton": true,
+    "overview": "An educational industrial automation project where a robot truck moves to a conveyor, receives an item, and transports it to another location.",
+    "howItWorks": "A robot truck moves to a conveyor, receives an item, and transports it to another location.",
+    "componentsUsed": [
+      "Arduino",
+      "Conveyor System",
+      "Robot Car",
+      "Sensors",
+      "Motor Control",
+      "Industrial Automation"
+    ],
+    "studentLearning": [
+      "Students experience industrial automation concepts."
+    ],
+    "learningOutcomes": [],
+    "videos": [
+      {
+        "src": "/uploads/projects/automated-conveyor-pickup-system/demo.mp4",
+        "label": "Automated conveyor pickup system demonstration"
+      }
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": true,
+    "published": true,
+    "order": 3
+  }
+]

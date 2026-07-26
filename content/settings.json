@@ -1,0 +1,19 @@
+{
+  "formspreeEndpoint": "https://formspree.io/f/mbdnzljj",
+  "contactAvailability": "Internships, junior backend roles, collaboration",
+  "projectFilters": [
+    "All",
+    "Java",
+    "Spring Boot",
+    "Robotics",
+    "Arduino",
+    "SQL",
+    "Future Projects"
+  ],
+  "emptyStates": {
+    "projects": "No published projects are available yet.",
+    "experience": "Experience details will be added here soon.",
+    "education": "Education details will be added here soon.",
+    "certificates": "No verified certificates have been published yet."
+  }
+}

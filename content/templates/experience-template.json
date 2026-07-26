@@ -1,0 +1,18 @@
+{
+  "id": "replace-with-experience-id",
+  "position": "REPLACE WITH JOB POSITION",
+  "company": "REPLACE WITH COMPANY OR ORGANIZATION",
+  "location": "REPLACE WITH LOCATION",
+  "startDate": "2025-01",
+  "endDate": "",
+  "currentlyWorking": true,
+  "description": "REPLACE WITH A SHORT DESCRIPTION",
+  "responsibilities": [
+    "REPLACE WITH A RESPONSIBILITY OR ACHIEVEMENT"
+  ],
+  "technologies": [],
+  "type": "Experience",
+  "icon": "fa-solid fa-briefcase",
+  "published": false,
+  "order": 999
+}

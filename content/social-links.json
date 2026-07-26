@@ -1,0 +1,39 @@
+[
+  {
+    "id": "github",
+    "name": "GitHub",
+    "url": "https://github.com/Sumsovath",
+    "icon": "github",
+    "enabled": true,
+    "order": 1,
+    "ariaLabel": "Open Sum Sovath on GitHub in a new tab"
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/sum-sovath-a772173b7?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    "icon": "linkedin",
+    "enabled": true,
+    "order": 2,
+    "ariaLabel": "Open Sum Sovath on LinkedIn in a new tab"
+  },
+  {
+    "id": "telegram",
+    "name": "Telegram",
+    "url": "https://t.me/sumsovath",
+    "icon": "telegram",
+    "enabled": true,
+    "order": 3,
+    "ariaLabel": "Open Sum Sovath on Telegram in a new tab"
+  },
+  {
+    "id": "email",
+    "name": "Email",
+    "url": "https://mail.google.com/mail/?view=cm&fs=1&to=sumsovath99%40gmail.com&su=Portfolio%20Contact",
+    "icon": "email",
+    "enabled": true,
+    "order": 4,
+    "ariaLabel": "Email Sum Sovath",
+    "title": "Contact me by Gmail"
+  }
+]

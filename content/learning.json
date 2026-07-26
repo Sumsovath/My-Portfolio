@@ -1,0 +1,207 @@
+{
+  "roadmap": [
+    {
+      "id": "foundations",
+      "stage": "Foundations",
+      "icon": "fa-solid fa-seedling",
+      "items": [
+        {
+          "label": "Java fundamentals",
+          "status": "Practicing"
+        },
+        {
+          "label": "Variables and data types",
+          "status": "Learned"
+        },
+        {
+          "label": "Conditions and loops",
+          "status": "Learned"
+        },
+        {
+          "label": "Methods",
+          "status": "Practicing"
+        },
+        {
+          "label": "Collections",
+          "status": "Practicing"
+        },
+        {
+          "label": "Exceptions",
+          "status": "Currently learning"
+        },
+        {
+          "label": "Object-Oriented Programming",
+          "status": "Practicing"
+        }
+      ],
+      "published": true,
+      "order": 1
+    },
+    {
+      "id": "spring-fundamentals",
+      "stage": "Spring Fundamentals",
+      "icon": "fa-solid fa-leaf",
+      "items": [
+        {
+          "label": "Framework concepts",
+          "status": "Currently learning"
+        },
+        {
+          "label": "Inversion of Control",
+          "status": "Currently learning"
+        },
+        {
+          "label": "Dependency Injection",
+          "status": "Practicing"
+        },
+        {
+          "label": "Beans",
+          "status": "Currently learning"
+        },
+        {
+          "label": "Configuration",
+          "status": "Practicing"
+        },
+        {
+          "label": "Component scanning",
+          "status": "Currently learning"
+        }
+      ],
+      "published": true,
+      "order": 2
+    },
+    {
+      "id": "web-development",
+      "stage": "Web Development",
+      "icon": "fa-solid fa-code-branch",
+      "items": [
+        {
+          "label": "Spring Boot",
+          "status": "Currently learning"
+        },
+        {
+          "label": "Spring Web MVC",
+          "status": "Currently learning"
+        },
+        {
+          "label": "Controllers",
+          "status": "Practicing"
+        },
+        {
+          "label": "REST APIs",
+          "status": "Practicing"
+        },
+        {
+          "label": "Request and response objects",
+          "status": "Currently learning"
+        },
+        {
+          "label": "Validation",
+          "status": "Planned next"
+        },
+        {
+          "label": "Exception handling",
+          "status": "Planned next"
+        }
+      ],
+      "published": true,
+      "order": 3
+    },
+    {
+      "id": "data-and-security",
+      "stage": "Data and Security",
+      "icon": "fa-solid fa-database",
+      "items": [
+        {
+          "label": "SQL",
+          "status": "Currently learning"
+        },
+        {
+          "label": "PostgreSQL",
+          "status": "Currently learning"
+        },
+        {
+          "label": "Spring Data JPA",
+          "status": "Currently learning"
+        },
+        {
+          "label": "Entity relationships",
+          "status": "Planned next"
+        },
+        {
+          "label": "Spring Security",
+          "status": "Planned next"
+        },
+        {
+          "label": "JWT",
+          "status": "Planned next"
+        },
+        {
+          "label": "Keycloak and OAuth2",
+          "status": "Exploring"
+        }
+      ],
+      "published": true,
+      "order": 4
+    },
+    {
+      "id": "engineering-direction",
+      "stage": "Engineering Direction",
+      "icon": "fa-solid fa-compass",
+      "items": [
+        {
+          "label": "Git and GitHub",
+          "status": "Practicing"
+        },
+        {
+          "label": "Maven and Gradle",
+          "status": "Currently learning"
+        },
+        {
+          "label": "Postman",
+          "status": "Practicing"
+        },
+        {
+          "label": "Docker",
+          "status": "Currently learning"
+        },
+        {
+          "label": "Linux",
+          "status": "Currently learning"
+        },
+        {
+          "label": "Testing",
+          "status": "Planned next"
+        },
+        {
+          "label": "System design fundamentals",
+          "status": "Planned next"
+        },
+        {
+          "label": "AI-integrated backend applications",
+          "status": "Future direction"
+        }
+      ],
+      "published": true,
+      "order": 5
+    }
+  ],
+  "languages": [
+    {
+      "id": "english",
+      "name": "English",
+      "status": "Elementary, improving every day",
+      "description": "Improving technical English, professional communication, speaking, reading, and writing.",
+      "published": true,
+      "order": 1
+    },
+    {
+      "id": "chinese",
+      "name": "Chinese",
+      "status": "Go Chinese Level 3, teaching beginner Level 1-2",
+      "description": "Learning Chinese for communication, education, and future professional opportunities.",
+      "published": true,
+      "order": 2
+    }
+  ]
+}
