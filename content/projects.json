@@ -18,6 +18,12 @@
       "Spring Boot"
     ],
     "status": "Learning — In Progress",
+    "role": "Self-Directed Learner",
+    "studentLearning": [
+      "Creating RESTful endpoints using Spring Boot annotations",
+      "Representing data in Java Maps/HashMaps and converting to JSON",
+      "Testing HTTP requests locally"
+    ],
     "learningOutcomes": [
       "Creating a REST controller",
       "Using @RestController",
@@ -30,38 +36,6 @@
     "featured": false,
     "published": true,
     "order": 6
-  },
-  {
-    "id": "product-catalog-api",
-    "title": "Product Catalog API",
-    "shortDescription": "A Spring Boot product catalog application that stores mock product data and exposes it through a REST API.",
-    "fullDescription": "A Spring Boot product catalog application that stores mock product data and exposes it through a REST API.",
-    "image": "/uploads/projects/product-catalog-api.jpg",
-    "technologies": [
-      "Java",
-      "Spring Boot",
-      "Spring Configuration",
-      "Dependency Injection",
-      "REST API",
-      "BigDecimal"
-    ],
-    "categories": [
-      "Java",
-      "Spring Boot"
-    ],
-    "status": "Learning — In Progress",
-    "learningOutcomes": [
-      "Constructor injection",
-      "Creating Spring beans",
-      "Returning lists through an API",
-      "Organizing code into packages",
-      "Understanding Spring-managed objects"
-    ],
-    "liveUrl": "",
-    "githubUrl": "",
-    "featured": false,
-    "published": true,
-    "order": 7
   },
   {
     "id": "restful-product-management-api",
@@ -83,6 +57,12 @@
       "Spring Boot"
     ],
     "status": "Completing",
+    "role": "Self-Directed Learner",
+    "studentLearning": [
+      "Designing decoupled data transfer objects (DTOs)",
+      "Using Java Records for clean immutable data structures",
+      "Structuring enterprise-level packages"
+    ],
     "learningOutcomes": [
       "Separating request and response objects",
       "Using CreateProductRequest",
@@ -115,6 +95,12 @@
     ],
     "status": "Completed learning project",
     "showVideoButton": true,
+    "role": "Robotics Instructor & Curriculum Developer",
+    "studentLearning": [
+      "How to read distance using ultrasonic sensors",
+      "How to write logic for motor speed based on distance",
+      "How to design obstacle-avoidance algorithms"
+    ],
     "learningOutcomes": [
       "Reading ultrasonic sensor data",
       "Measuring distance",
@@ -144,8 +130,8 @@
   {
     "id": "touchless-hand-washing-system",
     "title": "Touchless Hand-Washing System",
-    "shortDescription": "A touchless system concept using infrared sensing and pump or motor control. Completion status should be verified before publishing.",
-    "fullDescription": "A touchless system concept using infrared sensing and pump or motor control. Completion status should be verified before publishing.",
+    "shortDescription": "A touchless hygiene system using an infrared sensor and water pump control, designed as an educational STEM project for students.",
+    "fullDescription": "A touchless hygiene system using an infrared sensor and water pump control, designed as an educational STEM project for students.",
     "image": "/uploads/projects/touchless-hand-washing-system/cover.jpg",
     "technologies": [
       "Arduino",
@@ -159,6 +145,12 @@
     ],
     "status": "Completed learning project",
     "showVideoButton": true,
+    "role": "Technical Instructor",
+    "studentLearning": [
+      "How to program infrared sensors for proximity detection",
+      "How to use transistors or relays to control water pumps safely",
+      "Understanding smart sanitation systems"
+    ],
     "learningOutcomes": [
       "Using sensor input",
       "Triggering output safely",
@@ -183,8 +175,8 @@
   {
     "id": "bluetooth-robot-car",
     "title": "Bluetooth Robot Car",
-    "shortDescription": "A robotics project concept using Bluetooth control, motors, and a motor driver. Completion status should be verified before publishing.",
-    "fullDescription": "A robotics project concept using Bluetooth control, motors, and a motor driver. Completion status should be verified before publishing.",
+    "shortDescription": "An educational smart robot car controlled wirelessly via a custom Bluetooth mobile application.",
+    "fullDescription": "An educational smart robot car controlled wirelessly via a custom Bluetooth mobile application.",
     "image": "/uploads/projects/bluetooth-robot-car/cover.jpg",
     "technologies": [
       "Arduino",
@@ -198,6 +190,12 @@
     ],
     "status": "Completed learning project",
     "showVideoButton": true,
+    "role": "STEM Educator",
+    "studentLearning": [
+      "How to set up serial communication via Bluetooth modules",
+      "Understanding H-bridge motor drivers and DC motor control",
+      "Building interactive mobile-to-hardware applications"
+    ],
     "learningOutcomes": [
       "Understanding motor control",
       "Using wireless commands",
@@ -220,59 +218,6 @@
     "order": 1
   },
   {
-    "id": "student-management-system",
-    "title": "Student Management System",
-    "shortDescription": "A Java learning project focused on organizing student data, practicing OOP, and preparing for CRUD-style backend work.",
-    "fullDescription": "A Java learning project focused on organizing student data, practicing OOP, and preparing for CRUD-style backend work.",
-    "image": "/uploads/projects/student-management-system.jpg",
-    "technologies": [
-      "Java",
-      "Object-Oriented Programming",
-      "Collections",
-      "CRUD Concepts"
-    ],
-    "categories": [
-      "Java"
-    ],
-    "status": "Learning — In Progress",
-    "learningOutcomes": [
-      "Modeling entities",
-      "Practicing collections",
-      "Improving naming and structure"
-    ],
-    "liveUrl": "",
-    "githubUrl": "",
-    "featured": false,
-    "published": true,
-    "order": 8
-  },
-  {
-    "id": "sales-dashboard",
-    "title": "Sales Dashboard",
-    "shortDescription": "A SQL and data analysis learning project focused on reading business data and presenting useful dashboard insights.",
-    "fullDescription": "A SQL and data analysis learning project focused on reading business data and presenting useful dashboard insights.",
-    "image": "/uploads/projects/sales-dashboard.jpg",
-    "technologies": [
-      "SQL",
-      "Data Analysis",
-      "Dashboard Concepts"
-    ],
-    "categories": [
-      "SQL"
-    ],
-    "status": "Learning — In Progress",
-    "learningOutcomes": [
-      "Writing queries",
-      "Thinking in metrics",
-      "Practicing data storytelling"
-    ],
-    "liveUrl": "",
-    "githubUrl": "",
-    "featured": false,
-    "published": true,
-    "order": 9
-  },
-  {
     "id": "future-ai-backend-projects",
     "title": "Future AI Backend Projects",
     "shortDescription": "Planned projects include an AI chatbot backend, AI productivity assistant, secure API with JWT, Dockerized backend app, and portfolio CMS.",
@@ -289,6 +234,12 @@
       "Future Projects"
     ],
     "status": "Planned learning goal",
+    "role": "Self-Directed Learner",
+    "studentLearning": [
+      "Decoupled system architecture design",
+      "Integration of AI models with REST APIs",
+      "Production scaling with Docker containers"
+    ],
     "learningOutcomes": [
       "Plan real backend systems",
       "Connect AI features to APIs",
@@ -338,10 +289,17 @@
       "Motor Control",
       "Industrial Automation"
     ],
+    "role": "Robotics Course Designer",
     "studentLearning": [
-      "Students experience industrial automation concepts."
+      "Understanding factory automation and conveyor control logic",
+      "Synchronizing multiple robotic units (truck and conveyor)",
+      "Integrating limit switches and infrared detectors for positioning"
     ],
-    "learningOutcomes": [],
+    "learningOutcomes": [
+      "Understanding factory automation and conveyor control logic",
+      "Synchronizing multiple robotic units (truck and conveyor)",
+      "Integrating limit switches and infrared detectors for positioning"
+    ],
     "videos": [
       {
         "src": "/uploads/projects/automated-conveyor-pickup-system/demo.mp4",

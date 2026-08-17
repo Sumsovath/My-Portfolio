@@ -18,15 +18,12 @@ export const CONTENT_FILES = {
   profile: "profile.json",
   navigation: "navigation.json",
   about: "about.json",
-  story: "story.json",
-  skills: "skills.json",
   experience: "experience.json",
+  skills: "skills.json",
   projects: "projects.json",
-  learning: "learning.json",
   education: "education.json",
   certificates: "certificates.json",
   achievements: "achievements.json",
-  blog: "blog.json",
   socials: "social-links.json",
   settings: "settings.json"
 };
@@ -333,16 +330,9 @@ export const validateContent = async (content, options = {}) => {
   validateCollectionShape(issues, CONTENT_FILES.navigation, content.navigation, ["id", "label", "target"]);
   validateCollectionShape(
     issues,
-    CONTENT_FILES.story,
-    content.story,
-    ["id", "text"]
-  );
-  validateCollectionShape(
-    issues,
     CONTENT_FILES.skills,
     content.skills,
-    ["id", "name", "category", "status"],
-    { orderGroup: (item) => `category "${asString(item.category, "unknown")}"` }
+    ["id", "name", "category", "status"]
   );
   validateCollectionShape(
     issues,
@@ -362,19 +352,7 @@ export const validateContent = async (content, options = {}) => {
     content.certificates,
     ["id", "title", "issuer", "issueDate"]
   );
-  validateCollectionShape(issues, CONTENT_FILES.blog, content.blog, ["id", "title"]);
   validateCollectionShape(issues, CONTENT_FILES.socials, content.socials, ["id", "name"]);
-
-  asArray(content.skills).forEach((item, index) => {
-    if (!Number.isInteger(item.categoryOrder) || item.categoryOrder < 1) {
-      addIssue(
-        issues,
-        CONTENT_FILES.skills,
-        `[${index}].categoryOrder`,
-        "Category order must be a positive whole number."
-      );
-    }
-  });
 
   asArray(content.experience).forEach((item, index) => {
     if (!isValidMonth(item.startDate, false)) {
@@ -390,9 +368,23 @@ export const validateContent = async (content, options = {}) => {
         issues,
         CONTENT_FILES.experience,
         `[${index}].endDate`,
-        "Use YYYY-MM or leave it empty."
+        "Use YYYY-MM, or leave it empty for current roles."
       );
     }
+  });
+
+  asArray(content.skills).forEach((item, index) => {
+    if (!Number.isInteger(item.categoryOrder) || item.categoryOrder < 1) {
+      addIssue(
+        issues,
+        CONTENT_FILES.skills,
+        `[${index}].categoryOrder`,
+        "Category order must be a positive whole number."
+      );
+    }
+  });
+
+  asArray(content.experience).forEach((item, index) => {
     if (!item.currentlyWorking && !asString(item.endDate)) {
       addIssue(
         issues,
@@ -549,7 +541,6 @@ export const buildPortfolioData = async (content) => {
   const profile = isObject(content.profile) ? content.profile : {};
   const settings = isObject(content.settings) ? content.settings : {};
   const about = isObject(content.about) ? content.about : {};
-  const learning = isObject(content.learning) ? content.learning : {};
   const educationContent = isObject(content.education) ? content.education : {};
   const achievementsContent = isObject(content.achievements) ? content.achievements : {};
   const profileImage = await mapMedia(profile.profileImage);
@@ -561,31 +552,6 @@ export const buildPortfolioData = async (content) => {
     .sort((left, right) => asOrder(left.order) - asOrder(right.order))
     .map((item) => ({ label: asString(item.label), target: asString(item.target) }))
     .filter((item) => item.label && item.target);
-
-  const skillGroups = new Map();
-  asArray(content.skills)
-    .filter((item) => isObject(item) && item.published !== false && asString(item.name))
-    .sort((left, right) => {
-      const categoryDifference = asOrder(left.categoryOrder) - asOrder(right.categoryOrder);
-      if (categoryDifference !== 0) return categoryDifference;
-      return asOrder(left.order) - asOrder(right.order);
-    })
-    .forEach((item) => {
-      const category = asString(item.category, "Other Skills");
-      if (!skillGroups.has(category)) {
-        skillGroups.set(category, {
-          category,
-          icon: asString(item.categoryIcon, "fa-solid fa-code"),
-          items: []
-        });
-      }
-      skillGroups.get(category).items.push({
-        id: asString(item.id),
-        name: asString(item.name),
-        status: asString(item.status, "Status not added"),
-        icon: asString(item.icon)
-      });
-    });
 
   const projects = await Promise.all(
     sortPublished(content.projects).map(async (item) => {
@@ -626,6 +592,7 @@ export const buildPortfolioData = async (content) => {
         github: isValidExternalUrl(item.githubUrl) ? asString(item.githubUrl) : "",
         demo: isValidExternalUrl(item.liveUrl) ? asString(item.liveUrl) : "",
         featured: asBoolean(item.featured),
+        role: asString(item.role),
         order: asOrder(item.order)
       };
     })
@@ -681,7 +648,32 @@ export const buildPortfolioData = async (content) => {
     });
   });
 
-  const seoDescription = `Portfolio of ${asString(profile.name)}, ${asString(
+  const skillGroups = new Map();
+  asArray(content.skills)
+    .filter((item) => isObject(item) && item.published !== false && asString(item.name))
+    .sort((left, right) => {
+      const categoryDifference = asOrder(left.categoryOrder) - asOrder(right.categoryOrder);
+      if (categoryDifference !== 0) return categoryDifference;
+      return asOrder(left.order) - asOrder(right.order);
+    })
+    .forEach((item) => {
+      const category = asString(item.category, "Other Skills");
+      if (!skillGroups.has(category)) {
+        skillGroups.set(category, {
+          category,
+          icon: asString(item.categoryIcon, "fa-solid fa-code"),
+          items: []
+        });
+      }
+      skillGroups.get(category).items.push({
+        id: asString(item.id),
+        name: asString(item.name),
+        status: asString(item.status, "Status not added"),
+        icon: asString(item.icon)
+      });
+    });
+
+  const seoDescription = asString(profile.seoDescription) || `Portfolio of ${asString(profile.name)}, ${asString(
     profile.professionalTitle
   )} from ${asString(profile.location)}.`;
 
@@ -708,6 +700,7 @@ export const buildPortfolioData = async (content) => {
       description: seoDescription
     },
     navigation,
+    skills: Array.from(skillGroups.values()),
     heroRoles: asArray(profile.heroRoles).map((value) => asString(value)).filter(Boolean),
     heroBadges: asArray(profile.heroBadges).filter(isObject),
     about: asArray(about.paragraphs).map((value) => asString(value)).filter(Boolean),
@@ -732,8 +725,6 @@ export const buildPortfolioData = async (content) => {
       note: asString(item.note),
       icon: asString(item.icon, "fa-solid fa-chart-line")
     })),
-    story: sortPublished(content.story).map((item) => asString(item.text)).filter(Boolean),
-    skills: Array.from(skillGroups.values()),
     experience: sortPublished(content.experience).map((item) => ({
       id: asString(item.id),
       role: asString(item.position, "Position not added"),
@@ -748,16 +739,6 @@ export const buildPortfolioData = async (content) => {
     })),
     projectFilters: [...new Set(projectFilters)],
     projects,
-    learningRoadmap: sortPublished(learning.roadmap).map((item) => ({
-      stage: asString(item.stage),
-      icon: asString(item.icon, "fa-solid fa-route"),
-      items: asArray(item.items).filter(isObject)
-    })),
-    languages: sortPublished(learning.languages).map((item) => ({
-      name: asString(item.name),
-      status: asString(item.status),
-      description: asString(item.description)
-    })),
     education: sortPublished(educationContent.education).map((item) => ({
       id: asString(item.id),
       school: asString(item.institution),
@@ -777,7 +758,6 @@ export const buildPortfolioData = async (content) => {
     certificates,
     achievements: sortPublished(achievementsContent.achievements),
     signals: sortPublished(achievementsContent.activityPlaceholders),
-    blog: sortPublished(content.blog),
     contactForm: {
       endpoint: asString(settings.formspreeEndpoint)
     },

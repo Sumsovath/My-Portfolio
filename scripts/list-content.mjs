@@ -11,14 +11,12 @@ try {
   console.log(`Portfolio owner: ${content.profile.name}`);
   console.log(`Content folder: content/\n`);
   summarize("Navigation", content.navigation, "enabled");
-  summarize("Story items", content.story);
-  summarize("Skills", content.skills);
   summarize("Experience", content.experience);
+  summarize("Skills", content.skills);
   summarize("Projects", content.projects);
   summarize("Education", content.education.education);
   summarize("Training", content.education.training);
   summarize("Certificates", content.certificates);
-  summarize("Blog topics", content.blog);
   summarize("Social links", content.socials, "enabled");
 } catch (error) {
   console.error(error.message);

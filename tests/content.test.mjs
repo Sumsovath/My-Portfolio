@@ -118,15 +118,15 @@ test("generated sections remain safe when editable collections are empty", async
   const content = structuredClone(await loadContent());
   content.projects = [];
   content.experience = [];
-  content.certificates = [];
   content.skills = [];
+  content.certificates = [];
   content.education = { education: [], training: [] };
   const data = await buildPortfolioData(content);
 
   assert.deepEqual(data.projects, []);
   assert.deepEqual(data.experience, []);
-  assert.deepEqual(data.certificates, []);
   assert.deepEqual(data.skills, []);
+  assert.deepEqual(data.certificates, []);
   assert.deepEqual(data.education, []);
 });
 

@@ -231,60 +231,6 @@
     );
   };
 
-  const renderStory = () => {
-    if (!list(data.story).length) {
-      setHtml("storyTimeline", emptyState("Story items will be added here soon.", "fa-solid fa-route"));
-      return;
-    }
-    setHtml(
-      "storyTimeline",
-      list(data.story)
-        .map(
-          (item, index) => `
-            <article class="timeline-item" data-reveal>
-              <span class="timeline-index">${String(index + 1).padStart(2, "0")}</span>
-              <p>${escapeHtml(item)}</p>
-            </article>
-          `
-        )
-        .join("")
-    );
-  };
-
-  const renderSkills = () => {
-    if (!list(data.skills).length) {
-      setHtml("skillsGrid", emptyState("Skills will be added here soon.", "fa-solid fa-code"));
-      return;
-    }
-    setHtml(
-      "skillsGrid",
-      list(data.skills)
-        .map(
-          (group) => `
-            <article class="skill-card" data-reveal>
-              <div class="card-heading">
-                <span class="card-icon">${icon(group.icon)}</span>
-                <h3>${escapeHtml(group.category)}</h3>
-              </div>
-              <div class="skill-list">
-                ${list(group.items)
-                  .map(
-                    (skill) => `
-                      <div class="skill-pill">
-                        <span>${escapeHtml(skill.name)}</span>
-                        <small class="${statusClass(skill.status)}">${escapeHtml(skill.status)}</small>
-                      </div>
-                    `
-                  )
-                  .join("")}
-              </div>
-            </article>
-          `
-        )
-        .join("")
-    );
-  };
-
   const renderExperience = () => {
     if (!list(data.experience).length) {
       setHtml(
@@ -321,6 +267,40 @@
                       .join("")}</div>`
                   : ""
               }
+            </article>
+          `
+        )
+        .join("")
+    );
+  };
+
+  const renderSkills = () => {
+    if (!list(data.skills).length) {
+      setHtml("skillsGrid", emptyState("Skills will be added here soon.", "fa-solid fa-code"));
+      return;
+    }
+    setHtml(
+      "skillsGrid",
+      list(data.skills)
+        .map(
+          (group) => `
+            <article class="skill-card" data-reveal>
+              <div class="card-heading">
+                <span class="card-icon">${icon(group.icon)}</span>
+                <h3>${escapeHtml(group.category)}</h3>
+              </div>
+              <div class="skill-list">
+                ${list(group.items)
+                  .map(
+                    (skill) => `
+                      <div class="skill-pill">
+                        <span>${escapeHtml(skill.name)}</span>
+                        <small class="${statusClass(skill.status)}">${escapeHtml(skill.status)}</small>
+                      </div>
+                    `
+                  )
+                  .join("")}
+              </div>
             </article>
           `
         )
@@ -435,56 +415,6 @@
                   ${actionButton(project.github, "GitHub", "fa-brands fa-github")}
                   ${actionButton(project.demo, "Live Demo", "fa-solid fa-arrow-up-right-from-square")}
                 </div>
-              </div>
-            </article>
-          `
-        )
-        .join("")
-    );
-  };
-
-  const renderRoadmap = () => {
-    setHtml(
-      "learningRoadmap",
-      list(data.learningRoadmap).length
-        ? list(data.learningRoadmap)
-        .map(
-          (stage) => `
-            <article class="roadmap-card" data-reveal>
-              <div class="card-heading">
-                <span class="card-icon">${icon(stage.icon)}</span>
-                <h3>${escapeHtml(stage.stage)}</h3>
-              </div>
-              <ul class="roadmap-list">
-                ${list(stage.items)
-                  .map(
-                    (item) => `
-                      <li>
-                        <span>${escapeHtml(item.label)}</span>
-                        <small class="${statusClass(item.status)}">${escapeHtml(item.status)}</small>
-                      </li>
-                    `
-                  )
-                  .join("")}
-              </ul>
-            </article>
-          `
-        )
-        .join("")
-        : emptyState("Learning roadmap items will be added here soon.", "fa-solid fa-route")
-    );
-
-    setHtml(
-      "languageGrid",
-      list(data.languages)
-        .map(
-          (language) => `
-            <article class="language-card" data-reveal>
-              <span class="card-icon">${icon("fa-solid fa-language")}</span>
-              <div>
-                <h3>${escapeHtml(language.name)}</h3>
-                <strong>${escapeHtml(language.status)}</strong>
-                <p>${escapeHtml(language.description)}</p>
               </div>
             </article>
           `
@@ -622,29 +552,6 @@
     );
   };
 
-  const renderBlog = () => {
-    setHtml(
-      "blogGrid",
-      list(data.blog).length
-        ? list(data.blog)
-            .map(
-              (post) => `
-            <article class="blog-card" data-reveal>
-              <span class="status-chip">${escapeHtml(post.status)}</span>
-              <h3>${escapeHtml(post.title)}</h3>
-              <p>${escapeHtml(post.description)}</p>
-              <div class="blog-meta">
-                <span>${escapeHtml(post.category)}</span>
-                <span>${escapeHtml(post.readingTime)}</span>
-              </div>
-            </article>
-          `
-            )
-            .join("")
-        : emptyState("Writing topics will be published here soon.", "fa-solid fa-pen-nib")
-    );
-  };
-
   const renderContact = () => {
     const contactCards = list(data.contactCards).filter(
       (item) => !(item.label === "Resume" && !item.url)
@@ -739,16 +646,13 @@
     renderNavLinks("mobileNav", "mobile-nav-link");
     renderPersonalContent();
     renderAbout();
-    renderStory();
-    renderSkills();
     renderExperience();
+    renderSkills();
     renderProjectFilters();
     renderProjects();
-    renderRoadmap();
     renderEducation();
     renderCertificates();
     renderAchievements();
-    renderBlog();
     renderContact();
     renderFooter();
   };

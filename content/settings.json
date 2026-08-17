@@ -1,13 +1,12 @@
 {
   "formspreeEndpoint": "https://formspree.io/f/mbdnzljj",
-  "contactAvailability": "Internships, junior backend roles, collaboration",
+  "contactAvailability": "Teaching positions, STEM instructor roles, educational collaboration",
   "projectFilters": [
     "All",
-    "Java",
-    "Spring Boot",
     "Robotics",
     "Arduino",
-    "SQL",
+    "Java",
+    "Spring Boot",
     "Future Projects"
   ],
   "emptyStates": {

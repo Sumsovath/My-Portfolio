@@ -9,14 +9,11 @@
     ".skill-card",
     ".experience-card",
     ".project-card",
-    ".roadmap-card",
     ".education-card",
     ".training-card",
     ".certificate-card",
     ".achievement-card",
     ".signal-card",
-    ".blog-card",
-    ".language-card",
     ".contact-card",
     ".contact-form"
   ].join(",");
@@ -24,7 +21,6 @@
     ".skill-card",
     ".experience-card",
     ".project-card",
-    ".roadmap-card",
     ".education-card",
     ".certificate-card",
     ".contact-form"
@@ -157,17 +153,14 @@
     const gridSelectors = [
       ".info-grid",
       ".stat-grid",
-      ".skills-grid",
       ".experience-grid",
+      ".skills-grid",
       ".projects-grid",
-      ".roadmap-grid",
-      ".language-grid",
       ".education-grid",
       ".training-grid",
       ".certificate-grid",
       ".achievement-grid",
       ".signal-grid",
-      ".blog-grid",
       ".contact-cards"
     ];
 

@@ -123,6 +123,10 @@
             </p>
             <p class="hero-intro" id="heroIntro"></p>
             <div class="hero-actions">
+              <a class="button button-primary magnetic" href="#experience">
+                <i class="fa-solid fa-briefcase" aria-hidden="true"></i>
+                View My Experience
+              </a>
               <a class="button button-primary magnetic" href="#projects">
                 <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
                 View Projects
@@ -133,7 +137,7 @@
               </a>
               <a class="button button-ghost magnetic resume-link" download>
                 <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
-                Download Resume
+                Download CV
               </a>
             </div>
             <div class="hero-badges" id="heroBadges" aria-label="Core focus areas"></div>
@@ -167,10 +171,10 @@
                 <span></span>
               </div>
               <pre><code>const focus = {
-  language: "Java",
-  framework: "Spring Boot",
-  building: "REST APIs",
-  direction: "AI Backend"
+  role: "Tech & Robotics Educator",
+  teaching: ["STEM", "Arduino", "Robotics"],
+  skills: ["Programming", "Hardware", "ICT"],
+  mission: "Inspiring Future Innovators"
 };</code></pre>
             </div>
           </div>
@@ -181,13 +185,9 @@
         <div class="container split-layout">
           <div data-reveal>
             <p class="section-kicker">About</p>
-            <h2 id="aboutTitle">Backend learning, teaching, and practical technology work.</h2>
+            <h2 id="aboutTitle">Teaching Technology, Building Robotics, Inspiring Students.</h2>
             <div id="aboutCopy" class="section-copy"></div>
             <div class="button-row">
-              <a class="button button-primary" href="#learning">
-                <i class="fa-solid fa-route" aria-hidden="true"></i>
-                Learning Journey
-              </a>
               <a class="button button-ghost resume-link" download>
                 <i class="fa-solid fa-download" aria-hidden="true"></i>
                 Download CV
@@ -198,31 +198,6 @@
             <div id="infoGrid" class="info-grid"></div>
             <section id="statGrid" class="professional-snapshot" aria-labelledby="professionalSnapshotTitle"></section>
           </div>
-        </div>
-      </section>
-
-      <section class="section section-muted" id="story" aria-labelledby="storyTitle">
-        <div class="container">
-          <div class="section-heading" data-reveal>
-            <p class="section-kicker">Story</p>
-            <h2 id="storyTitle">A practical path into backend and AI systems.</h2>
-            <p>
-              My story combines Computer Science, classroom teaching, robotics projects, and a growing focus on
-              backend engineering.
-            </p>
-          </div>
-          <div id="storyTimeline" class="timeline"></div>
-        </div>
-      </section>
-
-      <section class="section" id="skills" aria-labelledby="skillsTitle">
-        <div class="container">
-          <div class="section-heading" data-reveal>
-            <p class="section-kicker">Skills</p>
-            <h2 id="skillsTitle">Honest skill areas with clear learning status.</h2>
-            <p>No inflated percentages. Each skill is labeled by real learning stage.</p>
-          </div>
-          <div id="skillsGrid" class="skills-grid"></div>
         </div>
       </section>
 
@@ -237,6 +212,17 @@
         </div>
       </section>
 
+      <section class="section" id="skills" aria-labelledby="skillsTitle">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="section-kicker">Skills</p>
+            <h2 id="skillsTitle">Professional skills & areas of expertise.</h2>
+            <p>A breakdown of my teaching, technical, and development skills.</p>
+          </div>
+          <div id="skillsGrid" class="skills-grid"></div>
+        </div>
+      </section>
+
       <section class="section" id="projects" aria-labelledby="projectsTitle">
         <div class="container">
           <div class="section-heading section-heading-row" data-reveal>
@@ -248,18 +234,6 @@
             <div id="projectFilters" class="filter-row" aria-label="Project filters"></div>
           </div>
           <div id="projectsGrid" class="projects-grid"></div>
-        </div>
-      </section>
-
-      <section class="section section-muted" id="learning" aria-labelledby="learningTitle">
-        <div class="container">
-          <div class="section-heading" data-reveal>
-            <p class="section-kicker">Learning Journey</p>
-            <h2 id="learningTitle">A roadmap toward reliable backend engineering.</h2>
-            <p>Topics are grouped by stage and labeled as learned, practicing, current, or planned.</p>
-          </div>
-          <div id="learningRoadmap" class="roadmap-grid"></div>
-          <div id="languageGrid" class="language-grid"></div>
         </div>
       </section>
 
@@ -296,25 +270,13 @@
         </div>
       </section>
 
-      <section class="section section-muted" id="blog" aria-labelledby="blogTitle">
-        <div class="container">
-          <div class="section-heading" data-reveal>
-            <p class="section-kicker">Blog</p>
-            <h2 id="blogTitle">Future writing about learning and building.</h2>
-            <p>Draft topics for technical writing and teaching notes.</p>
-          </div>
-          <div id="blogGrid" class="blog-grid"></div>
-        </div>
-      </section>
-
       <section class="section contact-section" id="contact" aria-labelledby="contactTitle">
         <div class="container contact-grid">
           <div data-reveal>
             <p class="section-kicker">Contact</p>
-            <h2 id="contactTitle">Open to internships, junior backend roles, and collaboration.</h2>
+            <h2 id="contactTitle">Open to teaching opportunities, STEM education roles, and collaboration.</h2>
             <p class="section-copy">
-              I am interested in backend learning opportunities, technology education projects, robotics programs,
-              and professional networking.
+              I am interested in technology and robotics teaching roles, STEM curriculum development, workshop facilitation, and educational collaboration.
             </p>
             <div id="contactCards" class="contact-cards"></div>
             <div class="map-placeholder" id="locationCard" aria-label="Portfolio location">
@@ -413,7 +375,7 @@
             <span class="brand-text" data-profile-name>Portfolio</span>
           </a>
           <p data-profile-title>Professional title</p>
-          <p>Built with HTML, CSS, JavaScript, GSAP, Three.js, and continuous learning.</p>
+          <p>Dedicated to inspiring students through hands-on technology, robotics, and creative problem-solving.</p>
         </div>
         <nav aria-label="Footer navigation">
           <ul id="footerNav" class="footer-nav"></ul>

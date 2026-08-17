@@ -14,9 +14,9 @@
     "order": 2
   },
   {
-    "id": "story",
-    "label": "Story",
-    "target": "story",
+    "id": "experience",
+    "label": "Experience",
+    "target": "experience",
     "enabled": true,
     "order": 3
   },
@@ -28,38 +28,24 @@
     "order": 4
   },
   {
-    "id": "experience",
-    "label": "Experience",
-    "target": "experience",
-    "enabled": true,
-    "order": 5
-  },
-  {
     "id": "projects",
     "label": "Projects",
     "target": "projects",
     "enabled": true,
-    "order": 6
-  },
-  {
-    "id": "learning",
-    "label": "Learning",
-    "target": "learning",
-    "enabled": true,
-    "order": 7
+    "order": 5
   },
   {
     "id": "education",
     "label": "Education",
     "target": "education",
     "enabled": true,
-    "order": 8
+    "order": 6
   },
   {
     "id": "contact",
     "label": "Contact",
     "target": "contact",
     "enabled": true,
-    "order": 9
+    "order": 7
   }
 ]

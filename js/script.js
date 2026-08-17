@@ -301,6 +301,11 @@
                 : ""
             }
             ${
+              project.role
+                ? `<section class="modal-section"><h3>My Role</h3><p>${components.escapeHtml(project.role)}</p></section>`
+                : ""
+            }
+            ${
               project.howItWorks
                 ? `<section class="modal-section"><h3>How It Works</h3><p>${components.escapeHtml(project.howItWorks)}</p></section>`
                 : ""
